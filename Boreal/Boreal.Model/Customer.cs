@@ -11,6 +11,6 @@ namespace Boreal.Model
     public class Customer : IStatelessResource, IIdentifiable<int>
     {
         public int Id { get; set; }
-        public string Name { get; set; } 
+        public string Name { get; set; }
     }
 }
