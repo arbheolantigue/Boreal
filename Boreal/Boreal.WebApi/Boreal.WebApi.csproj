@@ -310,6 +310,7 @@
     <Compile Include="Hypermedia\SampleSpec.cs" />
     <Compile Include="Infrastructure\BootStrapper.cs" />
     <Compile Include="Infrastructure\DefaultApiContainer.cs" />
+    <Compile Include="Infrastructure\Installers\ApiDependenciesInstaller.cs" />
     <Compile Include="Infrastructure\Installers\ResourceMapperInstaller.cs" />
     <Compile Include="Infrastructure\Installers\DomainServicesInstaller.cs" />
     <Compile Include="Infrastructure\CustomPingResourceFactory.cs" />

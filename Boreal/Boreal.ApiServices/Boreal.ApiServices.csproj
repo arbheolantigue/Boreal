@@ -183,6 +183,10 @@
     <Compile Include="SampleApiService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\BorealPersistence\BorealPersistence.csproj">
+      <Project>{f34a4ca4-f012-43b6-9666-98d42740ce20}</Project>
+      <Name>BorealPersistence</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Boreal.Model\Boreal.Model.csproj">
       <Project>{F1BE99C5-041C-4366-9E74-0AD3632A8611}</Project>
       <Name>Boreal.Model</Name>
