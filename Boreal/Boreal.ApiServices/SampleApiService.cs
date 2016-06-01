@@ -17,6 +17,7 @@ namespace Boreal.ApiServices
 
         public SampleApiService(IApiUserProvider<BorealApiUser> userProvider)
         {
+
             if (userProvider == null)
                 throw new ArgumentNullException("userProvider");
             _userProvider = userProvider;
